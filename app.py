@@ -1,4 +1,3 @@
-import os
 import streamlit as st
 from openai import OpenAI
 
@@ -9,7 +8,7 @@ st.write(
     "An API key is automatically provided via the `GITHUB_TOKEN` environment variable, but is rate limited to avoid abuse. "
 )
 
-token = os.environ.get("GITHUB_TOKEN")
+token = st.secrets.get("GITHUB_TOKEN", None)
 endpoint = "https://models.github.ai/inference"
 model = "openai/gpt-4.1-nano"
 
