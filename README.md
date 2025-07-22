@@ -1,6 +1,6 @@
-# 💬 Chatbot template
+#  OpenAI Coding Chatbot
 
-A simple Streamlit app that shows how to build a chatbot using OpenAI's GPT-3.5.
+A simple Streamlit app that shows how to make a basic coding chatbot with a prompt.
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://openai-code.streamlit.app/)
 
@@ -15,5 +15,5 @@ A simple Streamlit app that shows how to build a chatbot using OpenAI's GPT-3.5.
 2. Run the app
 
    ```
-   $ streamlit run streamlit_app.py
+   $ streamlit run app.py
    ```
